@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Concert+One&family=Josefin+Sans&family=Montserrat&family=Roboto+Mono:wght@600&family=Sacramento&family=Supermercado+One&family=Tangerine&display=swap');
+:root {
+    --primary_color: #999c8f;
+    --primary_font: 'Montserrat', sans-serif;
+}
+
+body {
+    scroll-behavior: smooth;
+    background-color: var(--primary_color);
+    font-family: var(--primary_font);
+}
+
+#navigation {
+    padding: 2% 15%;
+}
+
+#darkmode-icon {
+    z-index: 999;
+    position: fixed;
+    right: 17%;
+    top: 8%;
+    width: 40px;
+}
+
+.logo {
+    width: 68px;
+}
+
+.navi {
+    margin-left: auto;
+    margin-right: 10%;
+}
+
+#Home {
+    padding: 5% 15%;
+    height: 540px;
+}
+
+.home-img {
+    border-radius: 20% 0% 20% 0%;
+    margin-left: 85px;
+    width: 80%;
+}
+
+.home-text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.inner_shape {
+    margin-top: 15px;
+    /* margin-right: 2px; */
+    margin-left: 15px;
+    width: 15%;
+}
+
+.home-name {
+    padding-bottom: 20px;
+    font-family: 'Supermercado One', cursive;
+    color: #fae208;
+    font-size: 5.5rem;
+}
+
+.btn {
+    width: 100px;
+}
+
+.btn:hover {
+    border-color: rgb(106, 255, 255);
+    background-color: rgb(153, 181, 234);
+}
+
+#features {
+    width: 100vw;
+    padding: 2% 15%;
+    background-color: rgb(236, 236, 236);
+}
+
+#features-icon {
+    font-size: 50px;
+    color: #FF3D64;
+}
+
+#features-icon:hover {
+    color: red;
+}
+
+.feature-box {
+    padding: 2.5%;
+    text-align: center;
+}
+
+.feature-text {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Concert One', cursive;
+    padding: 5%;
+}
+
+#service-items {
+    padding: 5% 15%;
+}
+
+.service-title {
+    padding: 3% 15% 1%;
+    text-align: center;
+}
+
+.tservice-title {
+    margin-bottom: 3.2%;
+    font-family: 'Concert One', cursive;
+}
+
+.slide {
+    padding: 3% 15%;
+}
+
+#contact {
+    padding: 5% 10%;
+    width: 100vw;
+    background-color: #FFFFFF;
+}
+
+.acc-icon {
+    margin: 5% 0% 5% 9%;
+    text-align: center;
+    font-size: 25px;
+}
+
+#uppericon {
+    font-size: 40px;
+}
+
+.icontext {
+    margin-left: 7%;
+}
+
+.tableicon {
+    margin-top: 8%;
+    margin-left: 5%;
+}
+
+.iconpack {
+    margin-top: 5%;
+    margin-left: 7%;
+}
+
+.darkicon {
+    color: black;
+}
+
+.foottext {
+    padding: 1% 0%;
+    margin: auto;
+    margin-top: 0.4%;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Concert One', cursive;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+@media only screen and (min-width:300px) and (max-width:420px) {
+    #navigation {
+        padding: 5% 3% 5% 3%;
+    }
+    #darkmode-icon {
+        z-index: 999;
+        position: fixed;
+        right: 7%;
+        top: 7%;
+        width: 25px;
+    }
+    .navbar-brand {
+        margin-left: 8%;
+    }
+    .navbar-nav {
+        display: flex;
+        font-size: 12px;
+        list-style: none;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .nav-item {
+        margin-left: 10px;
+    }
+    .nav-link {
+        font-size: 9px;
+    }
+    .logo {
+        margin-left: 15%;
+        width: 40px;
+    }
+    .inner_shape {
+        margin-top: 5px;
+        margin-left: 10px;
+        width: 5px;
+    }
+    #Home {
+        padding: 5% 10%;
+        height: 230px;
+    }
+    .home-name {
+        padding-bottom: 10px;
+    }
+    .home-img {
+        position: absolute;
+        top: 18%;
+        left: 38%;
+        border-radius: 20% 0% 20% 0%;
+        width: 32%;
+    }
+    .btn-sm {
+        width: 50px;
+        padding: 2px;
+        font-size: 0.5rem;
+        border-radius: 0.2rem;
+    }
+    .home-text {
+        font-size: 10px;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .home-name {
+        margin-bottom: 0%;
+        font-family: 'Supermercado One', cursive;
+        color: #FF7F3F;
+        font-size: 1.5rem;
+    }
+    .home-para {
+        font-size: 7px;
+        width: 50%;
+    }
+    .home-para2 {
+        font-size: 7px;
+        width: 50%;
+    }
+    .home-btn {
+        height: 40px;
+        width: 65px;
+    }
+    .hireme {
+        font-size: 10px;
+    }
+    #features-icon {
+        font-size: 30px;
+        color: #FF3D64;
+    }
+    .feature-text {
+        font-size: 18px;
+        font-weight: bold;
+        font-family: 'Concert One', cursive;
+        padding: 5%;
+    }
+    .feature-para {
+        font-size: 10px;
+    }
+    .tservice-title {
+        margin-top: 10px;
+        margin-bottom: 25px;
+        font-size: 15px;
+    }
+    .servicepara {
+        font-size: 10px;
+    }
+    .servicetitle {
+        font-size: 15px;
+    }
+    .servicebtn {
+        font-size: 10px;
+    }
+    .submitbtn {
+        font-size: 10px;
+        margin-bottom: 5%;
+    }
+    .contacttitle {
+        font-size: 12px;
+    }
+    .contactpara {
+        font-size: 10px;
+    }
+    #uppericon {
+        font-size: 2.2rem;
+    }
+    .iconpack {
+        margin-left: 1%;
+    }
+    .foottext {
+        margin-top: 1%;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width:400px) and (max-width:800px) {
+    .nav.nav-tabs {
+        width: 80.9%;
+        padding-top: 50px;
+        height: 1%;
+        text-align: center;
+    }
+}
